@@ -1,0 +1,17 @@
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.deps.json
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.runtimeconfig.json
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.runtimeconfig.dev.json
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.dll
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\bin\Debug\netcoreapp2.1\quiz-backend.pdb
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.csprojAssemblyReference.cache
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.AssemblyInfoInputs.cache
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.AssemblyInfo.cs
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.csproj.CoreCompileInputs.cache
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorAssemblyInfo.cache
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorAssemblyInfo.cs
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.RazorTargetAssemblyInfo.cache
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.dll
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.pdb
+C:\Users\thoma\Documents\GitHub\quiz-app\quiz-backend\quiz-backend\obj\Debug\netcoreapp2.1\quiz-backend.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BtRmKVvr/nfw6b729gNJ7YXWpfx9vsueG3+dWxFbZfVEk/+8cwodl4CqONGf4VP6/Zcg/3EXDT9sa1aMghCx8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thoma\\Documents\\GitHub\\quiz-app\\quiz-backend-test\\quiz-backend-test\\quiz-backend-test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\thoma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
