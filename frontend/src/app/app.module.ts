@@ -15,11 +15,13 @@ import { QuestionComponent } from './question/question.component';
 
 // Services
 import { ApiService } from './api.service';
+import { QuestionsComponent } from './questions/questions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionComponent
+    QuestionComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule,
