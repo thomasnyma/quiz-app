@@ -8,11 +8,12 @@ import { ApiService } from '../api.service';
 })
 export class QuizComponent implements OnInit {
 
-  quiz = {};
+  quiz: any = {};
 
   constructor(public api: ApiService) { }
 
   ngOnInit(): void {
+    this.api.quizSelected.subscribe(quiz => this.quiz = quiz)
   }
 
 }

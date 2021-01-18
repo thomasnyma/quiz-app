@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ApiService } from '../api.service';
 
 @Component({
@@ -7,17 +8,15 @@ import { ApiService } from '../api.service';
   styleUrls: ['./questions.component.css']
 })
 export class QuestionsComponent implements OnInit {
-  question: any = {};
+
+  question = {};
   questions: any;
 
-  constructor(public api: ApiService) { }
+  constructor(public api: ApiService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.api.getQuestions().subscribe(res => this.questions = res);
-  }
-
-  post(question: any) {
-    this.api.postQuestion(question);
+    const quizId = this.route.snapshot.paramMap.get('quizId');
+    this.api.getQuestions(quizId).subscribe(res => this.questions = res);
   }
 
 }

@@ -19,14 +19,25 @@ namespace quiz_backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Models.Question>> Get()
+        public IEnumerable<Models.Question> Get()
         {
             return context.Questions;
+        }
+
+        [HttpGet("{quizId}")]
+        public IEnumerable<Models.Question> Get([FromRoute] int quizId)
+        {
+            return context.Questions.Where(q => q.QuizId == quizId);
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Models.Question question)
         {
+            var quiz = context.Quiz.SingleOrDefault(q => q.ID == question.QuizId);
+
+            if (quiz == null)
+                return NotFound();
+
             context.Questions.Add(question);
             await context.SaveChangesAsync();
             return Ok(question);
