@@ -5,6 +5,8 @@ import { QuestionComponent } from './question/question.component';
 import { RegisterComponent } from './register/register.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { LoginComponent } from './login/login.component';
+import { PlayComponent } from './play/play.component';
+import { PlayQuizComponent } from './play-quiz/play-quiz.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,11 +14,13 @@ const routes: Routes = [
   { path: 'question/:quizId', component: QuestionComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'quiz', component: QuizComponent }
+  { path: 'quiz', component: QuizComponent },
+  { path: 'play', component: PlayComponent },
+  { path: 'playQuiz/:quizId', component: PlayQuizComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
